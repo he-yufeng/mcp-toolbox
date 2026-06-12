@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.5.0](https://github.com/googleapis/mcp-toolbox/compare/v1.4.0...v1.5.0) (2026-06-12)
+
+
+### Features
+
+* **skills:** Generate skills offline without live source connections ([#3388](https://github.com/googleapis/mcp-toolbox/issues/3388)) ([4c860b6](https://github.com/googleapis/mcp-toolbox/commit/4c860b66b03f0ebf86205e73cd8521ad90ccebe4))
+* **skills:** Tolerate missing env vars during offline skills-generate ([#3399](https://github.com/googleapis/mcp-toolbox/issues/3399)) ([ea5d3e5](https://github.com/googleapis/mcp-toolbox/commit/ea5d3e5b9e60bf808e10d21b522954d76f7741b6))
+* **tools/bigquery:** Add per tool query label in BigQuery jobs ([#1975](https://github.com/googleapis/mcp-toolbox/issues/1975)) ([3f6a49f](https://github.com/googleapis/mcp-toolbox/commit/3f6a49f93116b8805e5082916f1babf39e6da749))
+* **tools:** Decouple tool initialization from sources ([#3355](https://github.com/googleapis/mcp-toolbox/issues/3355)) ([32a24e3](https://github.com/googleapis/mcp-toolbox/commit/32a24e35b5bf107bcf5e89af2a9b7af3740747ee))
+
+
+### Bug Fixes
+
+* Bound MCP HTTP body size ([#3216](https://github.com/googleapis/mcp-toolbox/issues/3216)) ([d4f4342](https://github.com/googleapis/mcp-toolbox/commit/d4f434251392fb597779a90a12c63d21533ea187)), closes [#3103](https://github.com/googleapis/mcp-toolbox/issues/3103)
+* Escape delimiter characters in applyEscape to prevent SQL injection ([#2811](https://github.com/googleapis/mcp-toolbox/issues/2811)) ([932519a](https://github.com/googleapis/mcp-toolbox/commit/932519a9551861bf5f18787dc43b20d06350343f))
+* **prebuilt/alloydb-omni:** Require password env var explicitly ([#3398](https://github.com/googleapis/mcp-toolbox/issues/3398)) ([fcbe3e7](https://github.com/googleapis/mcp-toolbox/commit/fcbe3e70d3d4e671e97e424187dba907d7c5b10b))
+* **source/dataplex,source/datalineage:** Specify cloud-platform scope for default credentials ([#3376](https://github.com/googleapis/mcp-toolbox/issues/3376)) ([13e8c36](https://github.com/googleapis/mcp-toolbox/commit/13e8c364de6fa598f1864134eff5b756340c8358))
+* Update escape in bigquery_integration_test.go ([#3392](https://github.com/googleapis/mcp-toolbox/issues/3392)) ([6392824](https://github.com/googleapis/mcp-toolbox/commit/63928241a51fd87112a206ff9f3c265dceaee948))
+
 ## [1.4.0](https://github.com/googleapis/mcp-toolbox/compare/v1.3.0...v1.4.0) (2026-06-04)
 
 
